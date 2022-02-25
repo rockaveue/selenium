@@ -32,21 +32,20 @@ Actions нь ихэвчлэн товч, линк дарах, сонголт хи
 
 | Комманд | Тайлбар  |
 |---|---|
-| open(url) |   |
-| type (locator, value) |   |
-| typeKeys (locator,value) |   |
-| sendKeys (locator,value) |   |
-| click (locator) |  |
-| clickAt (locator,coordString) |  |
-| clickAndWait (locator,coordString) |  |
-| doubleClick (locator) |  |
-| focus (locator) |  |
-| close() |  |
-| waitForCondition (script,timeout) |  |
-| waitForPageToLoad (script,timeout) |  |
-| waitForElementPresent (script,timeout) |  |
-| chooseOkOnNextConfirmation (script,timeout) |  |
-| chooseCancelOnNextConfirmation (script,timeout) |  |
+| open(url) | url нээнэ |
+| type (locator, value) | input field-д утга оруулна |
+| typeKeys (locator,value) | элемент-д keyboard-оос оруулж болох зүйлсийг хийнэ |
+| click (locator) | link, button, checkbox, radiobox гэх мэт ихэнх зүйлсийг дарахад ашигладаг |
+| clickAt (locator,coordString) | Байршлыг оруулж дарах үйлдэл |
+| clickAndWait (locator) | Дараад хүлээх |
+| doubleClick (locator) | Хулганы хоёр товшилт |
+| focus (locator) | фокус шилжүүлэх |
+| close() | Браузэр эсвэл цонхны хаах товчийг дарах |
+| waitForCondition (script,timeout) | ямар нэгэн нөхцлийг true болтол хүлээх |
+| waitForPageToLoad (script,timeout) | хуудсыг уншиж дуусахыг хүлээх |
+| waitForElementPresent (script,timeout) | элемент гарч иртэл хүлээх |
+| chooseOkOnNextConfirmation (script,timeout) | ok, cancel-тай alert box-ноос ok дарах |
+| chooseCancelOnNextConfirmation (script,timeout) | cancel дарах |
 
 ## Accessors
 
@@ -56,15 +55,15 @@ Accessor-т ихэвчлэн хуудсын ямар нэгэн төлөв дэ�
 
 | Комманд | Тайлбар  |
 |---|---|
-| storeTitle (variableName) |  |
-| storeText (locator, variableName) |  |
-| storeValue (locator,variableName) |  |
-| storeLocation (variableName) |  |
-| storeElementIndex (locator, variableName) |  |
-| storeBodyText (variableName) |  |
-| storeAllButtons (variableName) |  |
-| storeAllFields (variableName) |  |
-| storeAllLinks (variableName) |  |
+| storeTitle (variableName) | Одоо байгаа хуудсын title хадгалах |
+| storeText (locator, variableName) | Элементийн текст авах |
+| storeValue (locator,variableName) | input field-ийн утгыг хадгалах |
+| storeLocation (variableName) | Одоо байгаа хуудсын бүтэн URL-ийг хадгалах |
+| storeElementIndex (locator, variableName) | Элементийн индексийг хадгалах |
+| storeBodyText (variableName) | Хуудсын бүх зүйлийг хадгалах |
+| storeAllButtons (variableName) | Хуудсанд байгаа товчнуудын id-г авч хадгалах |
+| storeAllFields (variableName) | Хуудсанд байгаа fieldүүдийн id-г авч хадгалах |
+| storeAllLinks (variableName) | Хуудсан байгаа линкүүдийн id-г авч хадгалах |
 
 ## Assertions
 
@@ -74,19 +73,17 @@ Assertion-д хуудсын ямар нэг төлвийг баталгаажу�
 
 | Комманд | Тайлбар  |
 |---|---|
-| assertText |  |
-| assertTitle |  |
-| assertElementPresent |  |
-| assertTextPresent |  |
-| verifyTitle |  |
-| verifyElementPresent |  |
-| verifyTextPresent |  |
-| verifyBodyText(pattern) |  |
-| verifyAttribute(attributeLocator, pattern) |  |
-| waitForErrorOnNext (message) |  |
-| waitForAlert (pattern) |  |
-| verifyAllWindowIds (pattern) |  |
-|  |  |
+| assertText | Элементийн текст тохирч байгааг шалгах |
+| assertTitle | Хуудсын title тохирч байгааг шалгах |
+| assertElementPresent | Хуудсанд элемент байгаа эсэхийг шалгах |
+| assertTextPresent | Элемент-д текст байгаа эсэхийг шалгах |
+| verifyTitle | Title байгаа эсэхийг шалгах |
+| verifyElementPresent | Элемент байгаа эсэхийг шалгах  |
+| verifyTextPresent | Элемент-д текст байгаа эсэхийг шалгах |
+| verifyBodyText(pattern) | Хуудсан дах текст таарч байгааг шалгах |
+| verifyAttribute(attributeLocator, pattern) | Элементийн аттрибут таарч байгааг шалгах |
+| waitForErrorOnNext (message) | Алдаа гарсан эсэхийг хүлээх |
+| waitForAlert (pattern) | Анхааруулга хүлээх |
 
 
 # Selenium webdriver
