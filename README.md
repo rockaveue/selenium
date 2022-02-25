@@ -1,9 +1,9 @@
 # Table of Contents
 
-1. [Selenium IDE](selenium-ide)
-1. [Selenium Webdriver](selenium-webdriver)
-1. [Selenium Webdriver on NodeJS](selenium-webdriver-setup-for-nodejs)
-1. [Selenium Webdriver on PHP (ubuntu)](php-selenium-webdriver-setup-on-ubuntu)
+1. [Selenium IDE](#selenium-ide)
+1. [Selenium Webdriver](#selenium-webdriver)
+1. [Selenium Webdriver on NodeJS](#selenium-webdriver-setup-for-nodejs)
+1. [Selenium Webdriver on PHP (ubuntu)](#php-selenium-webdriver-setup-on-ubuntu)
 
 # Selenium IDE
 
@@ -20,9 +20,9 @@ Selenium нь HTML тагууд дээр суурилан UI элементүү�
 
 Гурван төрлийн коммандууд байдаг.
 
-1. [Actions - Үйлдлүүд](actions)
-1. [Accessors - Хандагч](accessors)
-1. [Assertions - Баталгаажуулалт](assertions)
+1. [Actions - Үйлдлүүд](#actions)
+1. [Accessors - Хандагч](#accessors)
+1. [Assertions - Баталгаажуулалт](#assertions)
 
 ## Actions
 
@@ -181,9 +181,9 @@ Webdriver сангаа суулгасны дараа оруулж ирэн ха�
 
 ## TOC
 
-1. [Install selenium-webdriver](install-selenium-webdriver)
-1. [Test code](test-code)
-1. [Run the test](run-the-test)
+1. [Install selenium-webdriver](#install-selenium-webdriver)
+1. [Test code](#test-code)
+1. [Run the test](#run-the-test)
 
 ## Install selenium-webdriver
 
@@ -230,13 +230,13 @@ Simply run the code with `node FILE_PATH`
 
 ## TOC
 
-1. [Install composer](install-composer)
-1. [Install chromedriver](install-chromedriver)
-1. [Download selenium-server](download-selenium-server-standalone)
-1. [Install php webdriver](composer-install-php-webdriver/webdriver)
-1. [start selenium server](start-selenium-server-standalone)
-1. [Prepare test code](prepare-test-code)
-1. [Run the code](run-php-code)
+1. [Install composer](#install-composer)
+1. [Install chromedriver](#install-chromedriver)
+1. [Download selenium-server](#download-selenium-server-standalone)
+1. [Install php webdriver](#composer-install-php-webdriver/webdriver)
+1. [start selenium server](#start-selenium-server-standalone)
+1. [Prepare test code](#prepare-test-code)
+1. [Run the code](#run-php-code)
 
 
 ## Install composer
