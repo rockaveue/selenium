@@ -20,7 +20,7 @@ Selenium нь HTML тагууд дээр суурилан UI элементүү�
 
 ## Selenium суулгах
 
-1. [https://www.selenium.dev/selenium-ide/](Download selenium)
+1. [Download selenium](https://www.selenium.dev/selenium-ide/)
 
       Дээрх линкээр орж ямар хөтөч ашиглаж байгаагаас хамаараад суулгана
 
